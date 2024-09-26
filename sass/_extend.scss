@@ -1,0 +1,11 @@
+// Example of using extend
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.primary-button {
+    @extend .button;
+    @include button-style($primary-color);
+}

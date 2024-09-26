@@ -1,0 +1,22 @@
+@import 'variable';
+@import 'extend';
+@import 'function';
+@import 'loop';
+@import 'map';
+@import 'mixins';
+@import 'nested';
+
+
+main {
+    padding: 20px;
+    article {
+        margin-bottom: 20px;
+        border: 1px solid $secondary-color;
+        padding: 15px;
+        border-radius: 8px;
+        
+        h2 {
+            color: $primary-color;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+// Example of using maps for font sizes
+$font-sizes: (
+    small: 12px,
+    medium: 16px,
+    large: 20px,
+);
+
+h1 {
+    font-size: map-get($font-sizes, large);
+}
+
+p {
+    font-size: map-get($font-sizes, medium);
+}

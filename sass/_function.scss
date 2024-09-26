@@ -1,0 +1,4 @@
+// Example function for a simple color manipulation
+@function adjust-color($color, $amount) {
+    @return mix(black, $color, $amount);
+}
