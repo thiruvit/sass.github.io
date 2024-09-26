@@ -1,0 +1,13 @@
+{
+  "name": "sass1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/index.scss ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Thirunavukarasu",
+  "license": "ISC",
+  "description": ""
+}
